@@ -6,8 +6,8 @@ import os
 
 os.system('cls')
 
-API_KEY = "310jKxF0jjmzYrbLFYyyA83hwgv9H2RtCWX2nEnizEMShnz3Ok3hZAVOIGEhsEFl"
-API_SECRET = "BFNhtXLzwhoJhxAOVtXC9MnimJzNRHfh6xvt0ErwA82tgPHfKb5laXooLjWoyrL1"
+API_KEY = ""
+API_SECRET = ""
 
 def get_coin_price(coin_id):
     url = f"https://api.binance.com/api/v3/ticker/price?symbol={coin_id}USDT"
